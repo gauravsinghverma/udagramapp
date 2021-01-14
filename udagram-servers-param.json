@@ -2,5 +2,21 @@
     {
         "ParameterKey": "EnvironmentName",
         "ParameterValue": "UdagramApp"
+    },
+    {
+        "ParameterKey": "S3Resource",
+        "ParameterValue": "arn:aws:s3:::udagramappbucket"
+    },
+    {
+        "ParameterKey": "AmiImageId",
+        "ParameterValue": "ami-0d1cd67c26f5fca19"
+    },
+    {
+        "ParameterKey": "DefaultCidrIp",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "ConnectionPort",
+        "ParameterValue": "80"
     }
 ]
